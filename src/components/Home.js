@@ -17,25 +17,6 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    //   this.setState({ isLoading: true });
-
-    //   axios
-    //     .get(API)
-    //     .then(result =>
-    //       this.setState({
-    //         hits: result.id,
-    //         isLoading: false
-    //       })
-    //     )
-    //     .catch(error =>
-    //       this.setState({
-    //         error,
-    //         isLoading: false
-    //       })
-    //     );
-
-    //   console.log(this.state);
-
     this.fetchUser();
   }
 
