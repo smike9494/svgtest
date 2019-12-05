@@ -17,32 +17,6 @@ const SVG = () => {
       <div />
     </section>
   );
-  //   const boxes = () => {
-  //     let box = (
-  //       <section>
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //         <div />
-  //       </section>
-  //     );
-
-  //   let tl = anime.timeline({
-  //     easing: 'easeOutExpo',
-  //     duration: 750
-  //   });
-
-  //     tl.add({
-  //       targets: ' div',
-  //       backgroundColor: 'rgb(197, 197, 255)'
-  //     });
-  //   };
 
   return (
     <div>
