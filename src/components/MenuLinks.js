@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 export default class MenuLinks extends Component {
-  componentDidMount(props) {
-    //console.log(props);
-  }
+
 
   render() {
     return (
@@ -14,14 +12,13 @@ export default class MenuLinks extends Component {
         <Link onClick={this.props.closeHome} to='/'>
           Home
         </Link>
-        <Link onClick={this.props.closeHome} to='/users'>
-          About
+        <Link onClick={this.props.closeHome} to='/work'>
+          Work
         </Link>
+        <Link to='/portfolio'>Media Agency</Link>
+        <Link to='/portfolio'>Advertise</Link>
         <Link to='/team'>Team</Link>
-        <Link to='/portfolio'>Portfolio</Link>
         <Link to='/contact'>Contact</Link>
-        <Link to='/signin'>Sign In</Link>
-        <Link to='/singup'>Sign Up</Link>
       </div>
     );
   }

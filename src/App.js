@@ -7,7 +7,8 @@ import Hamburger from './components/Hamburger';
 function App() {
   return (
     <div className='App'>
-      hello where you at <Hamburger />
+      <Hamburger />
+      hello where you at
     </div>
   );
 }
